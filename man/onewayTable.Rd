@@ -12,7 +12,8 @@ onewayTable(tab, alpha = 0.05)
 \item{alpha}{alpha level}
 }
 \value{
-named list with cell and combinations of cells probabilities and barplots
+* named list with cell and combinations of cells probabilities
+* barplots with Bonferonni intervals
 }
 \description{
 A function which produces point and interval estimates for each cell probability (and combinations) and barplots with Bonferonni intervals

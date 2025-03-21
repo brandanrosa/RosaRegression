@@ -5,7 +5,9 @@
 #' @param tab a one-way table of counts
 #' @param alpha alpha level
 #'
-#' @returns named list with cell and combinations of cells probabilities and barplots
+#' @returns
+#' * named list with cell and combinations of cells probabilities
+#' * barplots with Bonferonni intervals
 #' @export
 #'
 #' @importFrom stats qnorm

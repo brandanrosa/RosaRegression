@@ -16,5 +16,6 @@ a named list with the following: model summary, n (num observations), k (num bet
 A function which takes an `lm()` object and produces a list of fun and interesting values which Regression covets
 }
 \examples{
-\dontrun{myLAreg(ylm)}
+ylm <- lm(LENGTH ~ WEIGHT, data = ddt)
+myLAreg(ylm)
 }

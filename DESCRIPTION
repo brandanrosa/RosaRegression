@@ -22,3 +22,5 @@ Imports:
   readxl
 URL: https://github.com/brandanrosa/RosaRegression
 BugReports: https://github.com/brandanrosa/RosaRegression/issues
+Depends: 
+    R (>= 3.5)

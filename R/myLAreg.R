@@ -7,7 +7,9 @@
 #' @return a named list with the following: model summary, n (num observations), k (num beta parameters), beta estimates, RSS, s-squared, s, and the Design & Response Matrices.
 #' @export
 #'
-#' @examples \dontrun{myLAreg(ylm)}
+#' @examples
+#' ylm <- lm(LENGTH ~ WEIGHT, data = ddt)
+#' myLAreg(ylm)
 myLAreg <- function(obj) { # obj = lm() object
 
   # summary
