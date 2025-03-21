@@ -19,3 +19,5 @@ Imports:
   magrittr,
   stats,
   dplyr
+URL: https://github.com/brandanrosa/RosaRegression
+BugReports: https://github.com/brandanrosa/RosaRegression/issues
