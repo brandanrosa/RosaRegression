@@ -18,6 +18,7 @@ Imports:
   ggplot2,
   magrittr,
   stats,
-  dplyr
+  dplyr,
+  readxl
 URL: https://github.com/brandanrosa/RosaRegression
 BugReports: https://github.com/brandanrosa/RosaRegression/issues
